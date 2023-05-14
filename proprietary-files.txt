@@ -1,4 +1,4 @@
-# All blobs are extracted from gauguin V13.0.15.0.SJSCNXM CN / V13.0.12.0.SJSEUXM Global, unless pinned
+# All blobs are extracted from gauguin V14.0.2.0.SJSCNXM CN, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
