@@ -428,16 +428,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>imsrtpservice</instance>
         </interface>
     </hal>
-   <!-- Perf HAL service -->
-    <hal format="hidl">
-         <name>vendor.qti.hardware.perf</name>
-         <transport>hwbinder</transport>
-         <version>2.2</version>
-         <interface>
-             <name>IPerf</name>
-             <instance>default</instance>
-         </interface>
-     </hal>
     <!-- Hidl service for 5G network apis -->
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.qtiradio</name>
@@ -532,16 +522,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- QSPM-HAL service-->
-    <hal format="hidl">
-        <name>vendor.qti.qspmhal</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IQspmhal</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- VPP Service -->
     <hal format="hidl">
         <name>vendor.qti.hardware.vpp</name>
@@ -560,16 +540,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <interface>
             <name>IDspService</name>
             <instance>dspservice</instance>
-        </interface>
-    </hal>
-    <!-- PASR manager service -->
-    <hal format="hidl">
-        <name>vendor.qti.power.pasrmanager</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IPasrManager</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <!-- Camera PostProcessing service -->
