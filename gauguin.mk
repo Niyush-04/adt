@@ -117,13 +117,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.opengles.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
-# Doze
-PRODUCT_PACKAGES += \
-    ParanoidDoze
-
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    ro.sensor.pickup=xiaomi.sensor.pickup
-
 # DPM
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.dpm.feature=11 \
